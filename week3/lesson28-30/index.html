@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8" name="description" content="this is task lesson 28-30">
+    <title>Task 1</title>
+    
+</head>
+<body>
+
+    <form method="get">
+        <div id="Token">
+            <label for="token" hidden>Token</label>
+            <input type="hidden" name="token" value="b92f1fc2fce391ad7af633723afd3055" id="token">
+        </div>
+        <div id="Email">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" value="o@o.com" readonly>
+        </div>
+        <div id="User">
+            <label for="user">Username</label>
+            <input id="user" name="username" type="text" autofocus required minlength="5" maxlength="20">
+        </div>
+        <br>
+        <div id="skills">
+            <label  >Skills</label>
+            <div>
+            <input checked name="skills" value="Planning" id="option1" type="checkbox">
+            <label for="option1">Planning</label>
+            <br>
+            </div>
+            <div>
+            <input name="skills" value="Analysis" id="option2" type="checkbox">
+            <label for="option2">Analysis</label>
+            <br>
+            </div>
+            <div>
+            <input name="skills" value="Logical Thinking" id="option3" type="checkbox">
+            <label for="option3">Logical Thinking</label>
+            <br>
+            </div>
+            <div>
+            <input name="skills"value="Problem Solving" id="option4" type="checkbox">
+            <label for="option4">Problem Solving</label>
+            <br>    
+            </div>
+            <div>
+            <input name="skills" value="Advanced Search" id="option5" type="checkbox">
+            <label for="option5">Advanced Search</label>
+            <br>    
+            </div>
+        </div>
+        <br>
+        <div id="job">
+            <label>Job</label>
+            <div> 
+                <input name="job" checked value="Front-End Developer" type="radio" id="option-1">
+                <label for="option-1">Front-End Developer</label>
+                <br>
+            </div>
+            <div>
+            <input  type="radio" name="job" value="Back-End Developer" id="option-2">
+            <label for="option-2">Back-End Developer</label>
+            <br>
+            </div>
+            <div> 
+            <input  type="radio"name="job" value="Business Analyst" id="option-3">
+            <label for="option-3">Business Analyst</label>
+            <br>
+            </div>
+            <div>
+            <input type="radio" name="job" value="Project Manager" id="option-4">
+            <label for="option-4">Project Manager</label>
+            <br>
+            </div>
+            <div>
+            <input type="radio" name="job" value="Scrum Master" id="option-5">
+            <label for="option-5">Scrum Master</label>
+            <br>    
+            </div>
+        </div>
+        <br>
+        <div id="programing languages">
+            <label for="select&version">Choose language: </label>
+            <select id="select&version" name="languages" >
+                <optgroup label="PHP" name="PHP">
+                    <option value="V5.0">V5.0</option>
+                    <option value="V7.0">V7.0</option>
+                    <option value="V8.0">V8.0</option>
+                </optgroup>
+                <optgroup label="Python" name="Python" >
+                    <option value="V2.0">V2.0</option>
+                    <option value="V7.0">V7.0</option>
+                    <option value="V8.0">V8.0</option>
+                </optgroup>
+            </select>
+        </div>
+        <br>
+        <div id="areatext">
+            <textarea name="brief" id="brief" cols="30" rows="10" placeholder="Write Here Why You Want To Learn Programming"></textarea>
+        </div>
+        <br>
+        <div id="Reset">
+            <input type="reset" value="Empty">
+            <br><br>
+        </div>
+        <div id="Send">
+            <input type="submit" value="Send">
+        </div>
+    </form>
+</body>
+</html>
