@@ -4,7 +4,7 @@
 
 ## Answer
 
-### q1 =>> <button></button> or <input type="submit">
+### q1 =>> button tag or input type="submit"  tag
 
 ### q2 =>> h1 tag
 
